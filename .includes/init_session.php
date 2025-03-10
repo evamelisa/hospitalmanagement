@@ -1,8 +1,8 @@
 <?php
 session_start();
 //ambil data dari sesi
-$userId = $_SESSION["user_id"];
-$name = $_SESSION["name"];
+$pasienId = $_SESSION["pasien_id"];
+$nama = $_SESSION["nama"];
 $role = $_SESSION["role"];
 
 $notification = $_SESSION['notification'] ?? null;
